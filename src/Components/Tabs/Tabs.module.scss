@@ -1,0 +1,33 @@
+.ticket-tabs {
+  display: flex;
+}
+
+.ticket-tab {
+  display: block;
+  height: 50px;
+  width: 100%;
+  padding: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid rgba(223, 229, 236, 1);
+  background-color: white;
+  color: rgba(74, 74, 74, 1);
+  cursor: pointer;
+}
+
+.ticket-tab:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.ticket-tab:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.activeTab {
+  background: rgba(33, 150, 243, 1);
+  color: white;
+}

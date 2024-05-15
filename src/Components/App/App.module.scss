@@ -1,0 +1,19 @@
+.aviasales {
+  display: flex;
+  font-family: "Open Sans";
+  font-weight: 400;
+  gap: 20px;
+}
+
+.aviasales-logo {
+  width: 60px;
+  height: 60px;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+
+.ticket-container {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
